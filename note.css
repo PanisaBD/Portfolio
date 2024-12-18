@@ -1,0 +1,109 @@
+/* Base styles for the project section */
+#project {
+    padding: 2rem 5rem;
+    background-color: #f9f9f9;
+}
+
+#project .tag {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+#project .carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#project .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+    color: #fff;
+}
+
+#project .carousel-caption h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#project .carousel-caption p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#project .carousel-caption button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#project .carousel-caption button:hover {
+    background-color: #0056b3;
+}
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 992px) {
+    #project {
+        padding: 2rem;
+    }
+
+    #project .carousel-inner img {
+        max-height: 300px;
+    }
+
+    #project .carousel-caption {
+        padding: 0.8rem;
+    }
+
+    #project .carousel-caption h4 {
+        font-size: 1.3rem;
+    }
+
+    #project .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    #project .carousel-caption button {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 576px) {
+    #project {
+        padding: 1rem;
+    }
+
+    #project .tag {
+        font-size: 1.5rem;
+    }
+
+    #project .carousel-inner img {
+        max-height: 250px;
+    }
+
+    #project .carousel-caption {
+        padding: 0.6rem;
+    }
+
+    #project .carousel-caption h4 {
+        font-size: 1.2rem;
+    }
+
+    #project .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    #project .carousel-caption button {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
